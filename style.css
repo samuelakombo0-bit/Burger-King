@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 40px;
+    background-color: #f5ebdcd2;
+    border-bottom: 1px solid #E5D9C6;
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 700;
+    flex-wrap: wrap;
+    
+}
+
+header img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-right: 10%;
+}
+header nav{
+    display: flex;
+    font-size: 25px;
+    gap: 25px;
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(80, 35, 20);
+    transition: 0.5s;
+}
+header nav a:hover{
+    text-decoration:overline;
+    color: #f80c04;
+  
+}
+header button{
+    height: 45px;
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #E5D9C6;
+    background-color: #f85e04;
+    
+    
+}
+header button:hover{
+    box-shadow: 0 0 30px 0  yellow ;
+    color: yellow;
+    background-color: #f80c04;
+}
+.acceuille{
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.151),rgba(0, 0, 0, 0.603)) ,url(25.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover; 
+    background-attachment:fixed ;
+    
+}
+.acceuille .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+    color: rgb(245, 63, 8);
+    height: 60%;
+    gap: 20px;
+}
+.hero h2{
+     color: #F5EBDC;
+}
+.hero span{
+    color: #f85e04;   
+}
+.hero button{
+    height: 45px;
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #E5D9C6;
+    background-color: #f85e04;
+}
+.hero button:hover{
+    box-shadow: 0 0 30px 0  yellow ;
+    background-color: #f80c04;
+}
+.commande h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+}
+.commander{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 30px;
+    gap: 80px;
+
+}
+.burgeur h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.burgeur p {
+     display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.burgeur button{
+     height: 40px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #E5D9C6;
+    background-color: #f85e04;
+}
+.burgeur #yellow:hover{
+    color: red;
+ box-shadow: 0 0 30px 0  #f80c04 ;
+    background-color: rgba(253, 183, 32, 0.863) ;
+}
+.burgeur button:hover{
+    color: yellow;
+    box-shadow: 0 0 30px 0  yellow ;
+    background-color: #f80c04;
+}
+.burgeur img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.gallerie h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+}
+.galleries{
+    height: 100%;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  500px 500px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.carte1{
+    background: url(13.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover; 
+    grid-column: span 3;
+}
+.carte2{
+    background: url(4.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover; 
+}
+.carte3{
+    background: url(12.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover; 
+}
+.carte4{
+    background: url(14.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover; 
+}
+footer{ 
+    height: 100vh;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: minmax(2,700px);
+    grid-template-rows: minmax(2,500px);
+    gap: 30px;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.grid1{
+    background:url(26.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover; 
+    border-radius: 20px;
+}
+.grid2{
+   background:url(23.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover; 
+    border-radius: 20px;
+  
+}
+.grid3{
+    background-color: #000;
+    grid-column: span 2;
+    border-radius: 20px;
+    border-color: #fff;
+    background:url(27.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover; 
+    background-attachment: fixed;
+}
+.grid3 h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: #F5EBDC;
+    margin-top: 140px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+
+}
